@@ -1,5 +1,5 @@
 /**
- * @superbased/opencode-plugin — eyes AND hands for OpenCode.
+ * superbased-opencode-plugin — eyes AND hands for OpenCode.
  *
  * The MCP server (`superbased mcp`) provides the actual 72 tools. This plugin
  * adds lifecycle hooks for ergonomic value-add:

@@ -1,6 +1,6 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "plugin": ["@superbased/opencode-plugin"],
+  "plugin": ["superbased-opencode-plugin"],
   "mcp": {
     "superbased": {
       "type": "local",

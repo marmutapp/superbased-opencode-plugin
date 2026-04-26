@@ -7,7 +7,7 @@ Screenshot capture, AI vision, OCR, screen recording, visual regression testing,
 The plugin ships as an npm package. Install it globally so OpenCode can resolve it from your `opencode.json`:
 
 ```bash
-npm install -g @superbased/opencode-plugin superbased
+npm install -g superbased-opencode-plugin superbased
 ```
 
 Then add both the plugin and the MCP server to your `opencode.json`:
@@ -15,7 +15,7 @@ Then add both the plugin and the MCP server to your `opencode.json`:
 ```json
 {
   "$schema": "https://opencode.ai/config.json",
-  "plugin": ["@superbased/opencode-plugin"],
+  "plugin": ["superbased-opencode-plugin"],
   "mcp": {
     "superbased": {
       "type": "local",
@@ -105,6 +105,6 @@ The runtime probe in `src/mcp-bridge.ts` spawns `superbased --version` to verify
 
 - [SuperBased](https://superbased.app) — Desktop app + npm CLI
 - [npm: superbased](https://www.npmjs.com/package/superbased) — The CLI providing the MCP server
-- [npm: @superbased/opencode-plugin](https://www.npmjs.com/package/@superbased/opencode-plugin) — This package
+- [npm: superbased-opencode-plugin](https://www.npmjs.com/package/superbased-opencode-plugin) — This package
 - [OpenCode docs](https://opencode.ai/docs/plugins) — Plugin SDK reference
 - [Source-of-truth Claude Code plugin](https://github.com/marmutapp/superbased-claude-code-plugin) — Where shared content (skills/commands/agents) is mastered

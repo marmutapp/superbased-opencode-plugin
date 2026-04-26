@@ -1,5 +1,5 @@
 {
-  "name": "@superbased/opencode-plugin",
+  "name": "superbased-opencode-plugin",
   "version": "2.0.2",
   "description": "Eyes AND hands for OpenCode — capture, AI vision, OCR, recording, voice dictation, and full GUI automation (72 MCP tools) with humanization v2 + CAPTCHA-solving guidance",
   "keywords": [
