@@ -1,0 +1,68 @@
+{
+  "name": "@superbased/opencode-plugin",
+  "version": "2.0.2",
+  "description": "Eyes AND hands for OpenCode — capture, AI vision, OCR, recording, voice dictation, and full GUI automation (72 MCP tools) with humanization v2 + CAPTCHA-solving guidance",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "screenshot",
+    "screen-capture",
+    "ocr",
+    "screen-recording",
+    "ai-vision",
+    "visual-testing",
+    "token-compression",
+    "dictation",
+    "monitor",
+    "gui-automation",
+    "click-automation",
+    "form-fill",
+    "captcha",
+    "humanization",
+    "mcp"
+  ],
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "opencode.json",
+    "skills",
+    "commands",
+    "agents"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": "*"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "*",
+    "@types/node": "^25.6.0",
+    "typescript": "^5.4.0"
+  },
+  "author": {
+    "name": "Gaja AI",
+    "email": "contact@marmut.app",
+    "url": "https://superbased.app"
+  },
+  "license": "MIT",
+  "homepage": "https://superbased.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marmutapp/superbased-opencode-plugin"
+  },
+  "bugs": {
+    "url": "https://github.com/marmutapp/superbased-opencode-plugin/issues"
+  }
+}
